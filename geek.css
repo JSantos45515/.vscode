@@ -1,0 +1,29 @@
+*{}
+
+
+body{
+    color: rgb(230, 230, 230);
+    background-color: blue;
+    text-align: center;
+}
+
+.geek-produtos h1{
+    font-size: 50px;
+}
+
+.produto-card {
+    background-color: chartreuse;
+    margin-top: 40px;
+    width:  250px;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.produto-card:hover{
+    transform: translateY(150px);
+}
+
+.produto-card:button{
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+}
